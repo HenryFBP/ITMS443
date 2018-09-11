@@ -1,0 +1,15 @@
+[*] Performing General Enumeration of Domain: questinternet.net
+[-] DNSSEC is not configured for questinternet.net
+[*] 	 SOA ns65.domaincontrol.com 216.69.185.43
+[*] 	 NS ns65.domaincontrol.com 216.69.185.43
+[*] 	 NS ns65.domaincontrol.com 2607:f208:206::2b
+[*] 	 NS ns66.domaincontrol.com 173.201.70.43
+[*] 	 NS ns66.domaincontrol.com 2603:5:2264::2b
+[*] 	 MX questinternet.net.c2.mx2.ik2.io 208.77.151.115
+[*] 	 MX questinternet.net.c2.mx3.ik2.eu 64.38.239.82
+[*] 	 MX questinternet.net.c2.mx1.ik2.com 64.38.239.83
+[*] 	 MX questinternet.net.c2.mx1.ik2.com 66.37.25.72
+[*] 	 A questinternet.net 216.80.76.244
+[*] Enumerating SRV Records
+[-] No SRV Records Found for questinternet.net
+[+] 0 Records Found
