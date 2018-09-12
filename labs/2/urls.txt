@@ -17,3 +17,5 @@ http://questpcs.com/
 http://questpcs.com/*
 
 http://questnetwork.wix.com/
+
+http://questpcs.blogspot.com/
