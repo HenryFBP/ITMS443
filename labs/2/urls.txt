@@ -1,14 +1,19 @@
 http://boomshotrecords.com/
-http://www.boomshotrecords.com/_derived/
+http://boomshotrecords.com/_derived/
 http://boomshotrecords.com/*
 http://boomshotrecords.com/toc.htm
+http://boomshotrecords.com/wordpress/wp-admin/
 
 http://questinternet.net/
 http://questinternet.net/*
+http://questinternet.net/wordpress/wp-admin/
+https://mail.questinternet.net/owa/
+https://mail.questinternet.net/*
+https://mail.questinternet.net/wordpress/wp-admin/
 
 http://questnetworkservices.com/
 
 http://questpcs.com/
-http://www.questpcs.com/*
+http://questpcs.com/*
 
 http://questnetwork.wix.com/
