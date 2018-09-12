@@ -1,0 +1,14 @@
+http://boomshotrecords.com/
+http://www.boomshotrecords.com/_derived/
+http://boomshotrecords.com/*
+http://boomshotrecords.com/toc.htm
+
+http://questinternet.net/
+http://questinternet.net/*
+
+http://questnetworkservices.com/
+
+http://questpcs.com/
+http://www.questpcs.com/*
+
+http://questnetwork.wix.com/
