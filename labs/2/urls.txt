@@ -4,6 +4,8 @@ http://boomshotrecords.com/*
 http://boomshotrecords.com/toc.htm
 http://boomshotrecords.com/wordpress/wp-admin/
 
+https://www.evangelicalcatholicchurch.org/
+
 http://questinternet.net/
 http://questinternet.net/*
 http://questinternet.net/wordpress/wp-admin/
