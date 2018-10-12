@@ -3,4 +3,5 @@
 *.tmp
 ~$*.docx
 .idea/
+hydra.restore
 __pycache__/

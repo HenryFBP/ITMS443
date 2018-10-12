@@ -1,0 +1,9 @@
+demo.testfire.net
+IP address #1: 65.61.137.117
+
+ftp.testfire.net
+IP address #1: 65.61.137.117
+
+www.testfire.net
+IP address #1: 65.61.137.117
+

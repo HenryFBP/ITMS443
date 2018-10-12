@@ -1,0 +1,49 @@
+# Nmap 7.70 scan initiated Thu Oct 11 18:00:12 2018 as: nmap -v -A -oN nmap/testfire.net.txt testfire.net
+Nmap scan report for testfire.net (65.61.137.117)
+Host is up (1.1s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE  VERSION
+80/tcp   open     http     Microsoft IIS httpd 8.0
+| http-cookie-flags: 
+|   /: 
+|     amSessionId: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/8.0
+|_http-title: Altoro Mutual
+443/tcp  open     ssl/http Microsoft IIS httpd 8.0
+| http-cookie-flags: 
+|   /: 
+|     amSessionId: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/8.0
+|_http-title: Altoro Mutual
+| ssl-cert: Subject: commonName=demo.testfire.net
+| Issuer: commonName=demo.testfire.net
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSA
+| Not valid before: 2014-07-01T09:54:37
+| Not valid after:  2019-12-22T09:54:37
+| MD5:   82a4 b3e9 d7a9 da8b c9f0 afc4 3b8c 144b
+|_SHA-1: 20b9 5a83 17a9 fe16 27d5 b7f6 ac1c ee27 ec73 f040
+|_ssl-date: 2018-10-11T23:01:31+00:00; +58m03s from scanner time.
+1863/tcp filtered msnp
+8080/tcp open     http     Apache Tomcat/Coyote JSP engine 1.1
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Altoro Mutual
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 58m02s, deviation: 0s, median: 58m02s
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 11 18:03:29 2018 -- 1 IP address (1 host up) scanned in 196.62 seconds
