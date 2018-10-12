@@ -2,3 +2,4 @@
 *.log.gz
 *.tmp
 ~$*.docx
+.idea/
