@@ -3,6 +3,6 @@ use strict;
 use warnings;
 
 require("./scripts.pm");
-our(@TARGET, @OUTFILE);
+our(@TARGET, @OUTFOLDER);
 
-system("ping -c 4 @TARGET | tee @OUTFILE");
+system("ping -c 4 @TARGET | tee @OUTFOLDER/ping.txt");

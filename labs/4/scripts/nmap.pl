@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 require("./scripts.pm");
-our(@TARGET, @OUTFILE);
+our(@TARGET, @OUTFOLDER);
 
-system("nmap -p- @TARGET | tee @OUTFILE")
+system("nmap -p- @TARGET | tee @OUTFOLDER/nmap.txt")
 
