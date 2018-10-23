@@ -1,38 +1,9 @@
-Starting Nmap 7.70 ( https://nmap.org ) at 2018-10-22 16:33 EDT
-Nmap scan report for 172.43.0.154
-Host is up (0.00049s latency).
-Not shown: 65505 closed ports
-PORT      STATE SERVICE
-21/tcp    open  ftp
-22/tcp    open  ssh
-23/tcp    open  telnet
-25/tcp    open  smtp
-53/tcp    open  domain
-80/tcp    open  http
-111/tcp   open  rpcbind
-139/tcp   open  netbios-ssn
-445/tcp   open  microsoft-ds
-512/tcp   open  exec
-513/tcp   open  login
-514/tcp   open  shell
-1099/tcp  open  rmiregistry
-1524/tcp  open  ingreslock
-2049/tcp  open  nfs
-2121/tcp  open  ccproxy-ftp
-3306/tcp  open  mysql
-3632/tcp  open  distccd
-5432/tcp  open  postgresql
-5900/tcp  open  vnc
-6000/tcp  open  X11
-6667/tcp  open  irc
-6697/tcp  open  ircs-u
-8009/tcp  open  ajp13
-8180/tcp  open  unknown
-8787/tcp  open  msgsrvr
-33686/tcp open  unknown
-41710/tcp open  unknown
-48661/tcp open  unknown
-58745/tcp open  unknown
-MAC Address: 00:50:56:9A:AE:15 (VMware)
+PING 172.43.0.154 (172.43.0.154) 56(84) bytes of data.
+64 bytes from 172.43.0.154: icmp_seq=1 ttl=64 time=0.392 ms
+64 bytes from 172.43.0.154: icmp_seq=2 ttl=64 time=0.384 ms
+64 bytes from 172.43.0.154: icmp_seq=3 ttl=64 time=0.328 ms
+64 bytes from 172.43.0.154: icmp_seq=4 ttl=64 time=0.360 ms
 
-Nmap done: 1 IP address (1 host up) scanned in 3.83 seconds
+--- 172.43.0.154 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 52ms
+rtt min/avg/max/mdev = 0.328/0.366/0.392/0.024 ms
