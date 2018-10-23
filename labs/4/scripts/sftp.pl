@@ -29,7 +29,7 @@ print("Crack passwords?\n > ");
 
 if(<STDIN> =~ /^[yY]/) {
 	print("CRACK THE PASSWORDS!\n");
-	system("john --wordlist=/usr/share/wordlists/sqlmap.txt ./@OUTFOLDER/passwords.txt");
+	system("john ./@OUTFOLDER/passwords.txt");
 }
 
 
