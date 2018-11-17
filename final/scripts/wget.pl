@@ -11,5 +11,5 @@ foreach my $site (@SITES) {
 }
 
 # Find form elements.
-system("egrep '(<form)|(<input)' -r '@OUTFOLDER/wget'  --color=always 2>&1 | tee @OUTFOLDER/wget/forms_and_inputs.txt")
+system("egrep '(<form)|(<input)' -r '@OUTFOLDER/wget' 2>&1 | tee @OUTFOLDER/wget/forms_and_inputs.txt")
 
