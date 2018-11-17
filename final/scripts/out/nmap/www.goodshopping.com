@@ -1,6 +1,6 @@
-Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-17 13:34 EST
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-11-17 13:41 EST
 Nmap scan report for www.goodshopping.com (172.43.35.10)
-Host is up (0.00081s latency).
+Host is up (0.00073s latency).
 Not shown: 65509 closed ports
 PORT      STATE SERVICE
 21/tcp    open  ftp
@@ -30,5 +30,11 @@ PORT      STATE SERVICE
 49216/tcp open  unknown
 52710/tcp open  unknown
 MAC Address: 00:50:56:9A:E0:AE (VMware)
+Device type: general purpose
+Running: Microsoft Windows 2012|7|8.1
+OS CPE: cpe:/o:microsoft:windows_server_2012:r2 cpe:/o:microsoft:windows_7:::ultimate cpe:/o:microsoft:windows_8.1
+OS details: Microsoft Windows Server 2012 R2 Update 1, Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1
+Network Distance: 1 hop
 
-Nmap done: 1 IP address (1 host up) scanned in 17.16 seconds
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.53 seconds
