@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta name="description" content="Good Shopping Web Site" /><meta name="author" content="EC-Council" /><meta name="keywords" content="Sopping,Online-Shopping,Good Shopping" /><title>
+	GoodShopping
+</title>
+  
+<!-- ========================  CSS Files  ========================== -->
+  <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/ui.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/main.css" rel="stylesheet" type="text/css" media="screen" /><link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="screen" /><link rel="stylesheet" type="text/css" href="css/banners.css" />
+
+<!-- ========================  JS Files  =========================== -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/jquery.ui-slider.js"></script>
+  <script type="text/javascript" src="js/selectBox.min.js"></script>
+    <style type="text/css">
+        /* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 10%; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #29b0c4;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NDI3NTE5MThkZKgJ3U6JI6YLa+wDmM9Iynokt8lUslL4EsvCvGUHz6kF" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAULICk8BISrt9DTfEWJfIr7VK7BrRAtEiqu9nGFEI+jB3Y2+Mc6SrnAqio3oCKbxYYnZ7tBcf1HKANkhuTn0dI80yDBCECCs3xLEc48TjiA9ZeGUtjSHsCLgKGLe5PYVaosXgA2MWxrEKBgW1VMQGA0" />
+        <div id="wrapper">
+            <div id="top_panel">
+                <div class="wrap">
+                    <ul class="right_menu">
+                        <li><a class="link" href="#"><i class="icon-star icon-large"></i>Favorites</a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <div id="header">
+                <div class="wrap">
+                    <a class="logo" href="#"><span style="font-weight: bold; font-size: 27px;"><span class="main_color">GOOD</span><span class="bl_clr"> SHOPPING</span></span></a>
+                    <div style="padding-top: 26px; padding-left: -12px; position: absolute; padding-left: 740px; top: 35px; left: 233px;">
+                        <span id="Label1"><font color="Red"></font></span><br />
+                    </div>
+                </div>
+            </div>
+
+            <!--============================== Slider =================================-->
+            <div id="top_slider_block">
+                <div class="wrap">
+                </div>
+
+                <ul id="top_slider">
+                    <li class="slide1">
+                        <div class="wrap">
+                            <a href="#">
+                                <img src="tmp/top_slider/slide1_img.jpg" alt="" /></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--============================== Your Cart =================================-->
+            <div id="top_menu">
+                <div class="wrap">
+                    <!--============================== The Modal =================================-->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="ico2" style="width:65%;margin:0 auto;">
+
+                                <div class="field ico1" style="margin-bottom:10px;">
+                                    <input name="txtUsername" type="text" id="txtUsername" placeholder="Username" style="width:100%;" />
+                                </div>
+                                <div class="field ico2" style="margin-bottom:10px;">
+                                    <input name="txtPassword" type="password" id="txtPassword" placeholder="Password" style="width:100%;" />
+                                </div>
+
+                                <div class="links" style="margin-bottom:10px;">
+                                    <a href="#">Forgotten Password?</a>
+                                    <input id="remember" type="checkbox" name="#" value="#" />
+                                    <label for="remember">Remember me</label>
+                                </div>
+                                <div class="buts" style="margin-bottom:10px;">
+                                    <input type="submit" name="btnLogIn" value="Log in" id="btnLogIn" class="but but_orange" />
+                                    <input type="submit" name="btnSignUp" value="Sign up" id="btnSignUp" class="but but_gray" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--============================== Menu =================================-->
+                    <ul class="left_menu" style="margin-right: 0px;">
+                        <li class="menu_item my-pd"><a class="top_link" href="#">Home</a></li>
+                        <li class="menu_item my-pd"><a class="top_link" href="#">Product</a></li>
+                        <li class="menu_item my-pd"><a class="top_link" href="#">Catalog</a></li>
+                        <li class="menu_item my-pd"><a class="top_link" href="#">Blog</a></li>
+                        <li class="menu_item my-pd"><a class="top_link" href="#">Contact Us</a></li>
+                        <li class="menu_item my-pd last"><a id="myBtn" class="top_link" href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--============================== Banners =================================-->
+            <div id="top_baners">
+                <div class="wrap">
+                    <ul class="ca-menu">
+                        <li class="banner1">
+                            <a href="#">
+                                <span class="ca-icon"><i class="icon-tasks icon-large"></i></span>
+                                <div class="ca-content">
+                                    <h2 class="ca-main">Customer Loyalty</h2>
+                                    <h3 class="ca-sub">Programs</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner2">
+                            <a href="#">
+                                <span class="ca-icon"><i class="icon-shopping-cart icon-large"></i></span>
+                                <div class="ca-content">
+                                    <h2 class="ca-main">Worldwide</h2>
+                                    <h3 class="ca-sub">Shipping</h3>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="last banner3">
+                            <a href="#">
+                                <span class="ca-icon"><i class="icon-cogs icon-large"></i></span>
+                                <div class="ca-content">
+                                    <h2 class="ca-main">24/7 Technical</h2>
+                                    <h3 class="ca-sub">support</h3>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--============================== Content =================================-->
+            <div class="mainContent">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="title">About Shopping</div>
+                        <p>
+                            We specialize in different types of skate boards and skating equipments. We offer great quality products. We are having more than 10 year’s of experience in merchendizing skating equipments and have been a regular supplier to vaious global skate competitions. Our products sell worldwide.
+                        </p>
+
+                        <p>
+                            We have highly trained technicians. They are skateboard enthusiast and provide quality beyond consumers expectation.   
+                        </p>
+                    </div>
+
+                    <div class="list">
+                        <div class="title">Important Information</div>
+                        <ul>
+                            <li><a href="#">Replacement Policies</a></li>
+                            <li><a href="#">EMI Option</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="clear"></div>
+                    <div class="meta_info_shaddow">
+                        <div class="shaddow_right"></div>
+                        <div class="shaddow_left"></div>
+                        <div class="shaddow_center"></div>
+                    </div>
+                    <!--============================== Hot Deals =================================-->
+
+                </div>
+            </div>
+
+            <!--============================== Footer =================================-->
+            <div id="footer">
+                <div class="wrap">
+                    <div class="col">
+                        <div class="title"><a href="#">Order Support</a></div>
+
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Hot Deals</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Faq</a></li>
+                            <li class="last"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <div class="title"><a href="#">Product Support</a></div>
+
+                        <ul>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Shipping &amp; Store Pickup</a></li>
+                            <li><a href="#">International Orders</a></li>
+                            <li><a href="#">Store Pickup</a></li>
+                            <li class="last"><a href="#">Returns &amp; Refunds</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <div class="title"><a href="#">Support</a></div>
+
+                        <ul>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Shipping &amp; Store Pickup</a></li>
+                            <li><a href="#">International Orders</a></li>
+                            <li class="last"><a href="#">Store Pickup</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col col_last">
+                        <div class="title">Notify me about discounts</div>
+                        <input type="text" name="mail" onblur="if (this.value == '') {this.value = 'Enter your email';}" onfocus="if (this.value == 'Enter your email') {this.value = '';}" placeholder="Enter your email" />
+                        <div class="social">
+                            <a href="#" class="fb">facebook</a>
+                            <a href="#" class="tw">twitter</a>
+                            <a href="#" class="gl">google</a>
+                            <a href="#" class="rss">RSS</a>
+                        </div>
+                        <span class="copy">&copy; 2013 All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript">
+
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+    </form>
+</body>
+</html>
