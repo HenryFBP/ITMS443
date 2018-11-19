@@ -1,0 +1,13 @@
+403   312B   http://www.moviescope.com:80/%2e%2e//google.com
+400     3KB  http://www.moviescope.com:80/%3f/
+301   152B   http://www.moviescope.com:80/db
+301   153B   http://www.moviescope.com:80/css
+301   152B   http://www.moviescope.com:80/DB
+403     1KB  http://www.moviescope.com:80/db/
+301   156B   http://www.moviescope.com:80/images
+301   156B   http://www.moviescope.com:80/Images
+302   129B   http://www.moviescope.com:80/index.aspx
+301   152B   http://www.moviescope.com:80/js
+200     4KB  http://www.moviescope.com:80/Login.aspx
+200     4KB  http://www.moviescope.com:80/login.aspx
+403     2KB  http://www.moviescope.com:80/Trace.axd
