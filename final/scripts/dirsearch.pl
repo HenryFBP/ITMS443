@@ -15,7 +15,7 @@ if (not ($? == 0)) { #If the error code of the last command was NOT ZERO,
 }
 
 foreach my $site (@SITES) {
-  system("dirsearch.py"
+  execute("dirsearch.py"
   ." --url $site"
   ." --extensions txt,csv,xlsx,json,doc,pdf,docx,db,bin,php,asp,aspx,ascx,vbhtml,vba,cs,cshtml,py,htm,html,xhtml"
   ." --plain-text-report=@OUTFOLDER/dirsearch/$site.txt");
